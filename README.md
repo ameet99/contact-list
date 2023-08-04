@@ -14,6 +14,7 @@ Delete a contact (simulated DELETE call to the API)
 1) git clone https://github.com/ameet99/contact-list.git
 2) npm install
 3) npm start
+4) opena browser and type http://localhost:3000/
 
 
 # Project Structure
