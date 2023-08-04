@@ -1,9 +1,8 @@
+/* all css */
+
 .app {
   padding-left: 50px;
   padding-right: 50px;
-}
-.app h1{
-  color: '#24f885'
 }
 .container {
   max-width: 600px;

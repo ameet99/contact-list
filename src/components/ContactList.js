@@ -91,14 +91,8 @@ const ContactList = () => {
 				<button type="submit">Add Contact</button>
 			</form>
 			<ul>
-				{/* display all contact  */}
 				{contacts?.map((contact) => (
-          // <li key={contact.id}>
-          //   <strong>{contact.name}</strong> - {contact.email} - {contact.phone}
-          //   <button onClick={() => handleDelete(contact.id)}>Delete</button>
-          // </li>
-				<ContactItem key={contact.id} contact={contact} handleDelete={handleDelete} />
-
+					<ContactItem key={contact.id} contact={contact} handleDelete={handleDelete} />
         ))}
 			</ul>
 		</div>
